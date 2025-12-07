@@ -14,6 +14,7 @@
     @media (width < 550px) {
         width: 70vw;
     }
+    margin-block-end: 20px;
 }
 body{
     background-color: #928dab;
