@@ -61,15 +61,15 @@ body{
     border-radius: 4px;
 }
 .btns button{
-    color: #928dab;
-    background-color: #1f1c2c;
+    color: #1f1c2c;
+    background-color: #928dab;
     font-size: 1.5em;
     padding: 15px;
+    border: #1f1c2c solid 2px;
     box-shadow: 0px 4px 5px black;
     border-radius: 8px;
 }
 .btns button:hover{
-    background-color: #928dab;
-    color: #1f1c2c;
-    border: #1f1c2c solid 2px;
+    background-color: #1f1c2c;
+    color: #928dab;
 }
