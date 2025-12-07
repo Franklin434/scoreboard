@@ -12,6 +12,7 @@ body{
     justify-content: space-around;
     @media (width < 550px) {
         flex-direction: column;
+        gap: 20px;
     }
 }
 @font-face {
@@ -25,8 +26,11 @@ body{
     }
 }
 .column h1{
- font-size: 4em;   
- margin-block-end: 50px;
+    font-size: 4em;   
+    margin-block-end: 40px;
+    @media (width < 550px) {
+        margin-block-end: 10px;
+    }
 }
 .num-container{
     background-color: #1f1c2c;
