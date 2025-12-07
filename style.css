@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.title{
+    text-align: center;
+    background-color: #1f1c2c;
+    width: 40vw;
+    margin: 0px auto;
+    color: #928dab;
+    border-radius: 4px;
+    padding: 8px 10px;
+    @media (width < 550px) {
+        width: 70vw;
+    }
+}
 body{
     background-color: #928dab;
 }
@@ -14,6 +26,8 @@ body{
         flex-direction: column;
         gap: 20px;
     }
+    font-family: 'digital-7', sans-serif;
+    text-shadow: 2px 2px 8px #928dab;
 }
 @font-face {
     font-family: digital-7;
@@ -43,13 +57,15 @@ body{
         max-inline-size: 50vw;
         margin: 15px auto;
     }
+    border-radius: 4px;
 }
 .btns button{
     color: #928dab;
     background-color: #1f1c2c;
     font-size: 1.5em;
     padding: 15px;
-    box-shadow: 0px 8px 10px black;
+    box-shadow: 0px 4px 5px black;
+    border-radius: 8px;
 }
 .btns button:hover{
     background-color: #928dab;
