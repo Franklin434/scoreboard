@@ -3,18 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #928dab;
+}
 .container{
     text-align: center;
-    background-color: #928dab;
     display: flex;
     justify-content: space-around;
-    @font-face {
+    @media (width < 550px) {
+        flex-direction: column;
+    }
+}
+@font-face {
     font-family: digital-7;
     src: url(digital-7.monoitalic.ttf);
 }
-}
 .column{
     min-height: 100vh;
+    @media (width < 550px) {
+        min-height: 40vh;
+    }
 }
 .column h1{
  font-size: 4em;   
@@ -26,13 +34,18 @@
     padding: 40px;
     color: #928dab;
     margin-block-end: 20px;
+    box-shadow: 1px 8px 10px black;
+    @media (width < 550px) {
+        max-inline-size: 50vw;
+        margin: 15px auto;
+    }
 }
 .btns button{
     color: #928dab;
-    border: #928dab solid 1px;
     background-color: #1f1c2c;
     font-size: 1.5em;
     padding: 15px;
+    box-shadow: 0px 8px 10px black;
 }
 .btns button:hover{
     background-color: #928dab;
